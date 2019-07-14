@@ -265,3 +265,4 @@ __pycache__/
 [Rr]esource.[Dd]esigner.cs
 simulation/
 
+!/*.iOS/Configs/*
