@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "452987750472",
+    "firebase_url": "https://xffirebasemultisample-dev.firebaseio.com",
+    "project_id": "xffirebasemultisample-dev",
+    "storage_bucket": "xffirebasemultisample-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452987750472:android:9e5efed226360fb2",
+        "android_client_info": {
+          "package_name": "com.companyname.XFFirebaseMultiSample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452987750472-mnul2jfpoeffbgnragercncsionad375.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr1hPnsLKcE8HCRDJufEB3itRYTqIVflE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452987750472-mnul2jfpoeffbgnragercncsionad375.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
