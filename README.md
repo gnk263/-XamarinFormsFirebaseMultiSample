@@ -1,1 +1,1 @@
-# -XamarinFormsFirebaseMultiSample
+# XamarinFormsFirebaseMultiSample
