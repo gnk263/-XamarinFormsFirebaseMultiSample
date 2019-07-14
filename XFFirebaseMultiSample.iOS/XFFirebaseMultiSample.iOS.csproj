@@ -63,11 +63,15 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
+  <ItemGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <BundleResource Include="Configs\Debug\GoogleService-Info.plist" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)' == 'Release' ">
+    <BundleResource Include="Configs\Release\GoogleService-Info.plist" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <BundleResource Include="Configs\Debug\GoogleService-Info.plist" />
-    <BundleResource Include="Configs\Release\GoogleService-Info.plist" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
