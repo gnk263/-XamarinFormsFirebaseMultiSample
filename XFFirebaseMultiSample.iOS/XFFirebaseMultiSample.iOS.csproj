@@ -63,10 +63,12 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <AppExtensionDebugBundleId />
+    <ExtraLaunchArgs>--argument=-FIRDebugEnabled</ExtraLaunchArgs>
+  </PropertyGroup>
   <ItemGroup>
     <BundleResource Include="GoogleService-Info.plist" />
-    <BundleResource Include="Configs\Debug\GoogleService-Info.plist" />
-    <BundleResource Include="Configs\Release\GoogleService-Info.plist" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
@@ -140,4 +142,8 @@
       <Name>XFFirebaseMultiSample</Name>
     </ProjectReference>
   </ItemGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
 </Project>
