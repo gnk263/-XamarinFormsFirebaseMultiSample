@@ -265,4 +265,5 @@ __pycache__/
 [Rr]esource.[Dd]esigner.cs
 simulation/
 
+!/*.Android/Configs/*
 !/*.iOS/Configs/*
