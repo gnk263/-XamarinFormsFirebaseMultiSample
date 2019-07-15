@@ -74,10 +74,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <GoogleServicesJson Include="development\google-services.json" />
+    <GoogleServicesJson Include="Configs\Debug\google-services.json" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)' == 'Release' ">
-    <GoogleServicesJson Include="release\google-services.json" />
+    <GoogleServicesJson Include="Configs\Release\google-services.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
